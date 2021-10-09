@@ -1,4 +1,4 @@
-# Instagram-Backend-API
+# Instagram-Backend-API(NO EXTRA DEPENDENCIES)
 
 Designed and Developed an HTTP JSON API capable of the following operations:
 
