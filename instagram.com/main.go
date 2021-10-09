@@ -230,6 +230,7 @@ func (u *userHandlers) postusers(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var user User
+	//fetch the user input from cmd line POST entry
 	_ = json.NewDecoder(r.Body).Decode(&user)
 	user.Password = string(encrypt([]byte(user.Password), "locking"))
 	result, err := usercollection.InsertOne(context.TODO(), user)
