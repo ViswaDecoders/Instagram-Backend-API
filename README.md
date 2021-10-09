@@ -48,6 +48,7 @@ Golang is used for the API and MongoDB is used as a storage. Documentation has b
 - Password of the users are securely stored in databased in encrypted manner usinf AES encryption method
 - For each endpoint respective Pagination is provided.
 - All the necessary and required HTTP erros will prompt in any case of system failure.
+- Test cases are added to each HTTP request handler.
 
 # Data Types
 ```
