@@ -10,7 +10,7 @@ Create an User
 Get a user using id
 * Should be a GET request
 * Id should be in the url parameter
-* URL should be ‘/users/<id here>’
+* URL should be ‘/users/{id here}’
   
 Create a Post
 * Should be a POST request
@@ -20,8 +20,8 @@ Create a Post
 Get a post using id
 * Should be a GET request
 * Id should be in the url parameter
-* URL should be ‘/posts/<id here>’
+* URL should be ‘/posts/{id here}
   
 List all posts of a perticular user
 * Should be a GET request
-* URL should be ‘/posts/users/<Id here>'
+* URL should be ‘/posts/users/{Id here}'
