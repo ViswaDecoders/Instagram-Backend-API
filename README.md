@@ -1,7 +1,7 @@
 # Instagram-Backend-API(NO EXTRA DEPENDENCIES)
 
 Designed and Developed an HTTP JSON REST API mocking of instagram posts and users schema which capable of the following structure operations given below. 
-Golang is used for the API and MongoDB is used as a storage. Documentation has been done where ever is necessary.
+[*Golang*](https://golang.org/) is used for the API and [*MongoDB*](https://docs.mongodb.com/manual/tutorial/) is used as a storage. ***Documentation*** has been done where ever is necessary.
 
 # Structure
 - [x] Create an User
@@ -44,11 +44,11 @@ Golang is used for the API and MongoDB is used as a storage. Documentation has b
 - For operations of POST and GET are currently done using command prompt using curl commands
 
 # Features
-- Made the server thread safe using mutex and synchonized the threads to avoid deadlock situations
-- Password of the users are securely stored in databased in encrypted manner usinf AES encryption method
-- For each endpoint respective Pagination is provided.
-- All the necessary and required HTTP erros will prompt in any case of system failure.
-- Test cases are added to each HTTP request handler.
+- Made the ***server thread safe*** using mutex and synchonized the threads to avoid deadlock situations
+- Password of the users are securely stored in databased in ***encrypted*** manner using AES encryption method
+- For each endpoint respective ***Pagination*** is provided.
+- All the necessary and required ***HTTP erros*** will prompt in any case of system failure.
+- ***Test cases*** are added to each HTTP request handler.
 
 # Data Types
 ```
